@@ -1,0 +1,19 @@
+.btn-warning{
+  margin-right: 5px;
+}
+
+
+@media (max-width: 576px) {
+  .btn-warning {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-warning {
+    margin-bottom: 1rem;
+  }
+}
+
+
+

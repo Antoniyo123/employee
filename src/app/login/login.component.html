@@ -1,0 +1,15 @@
+<body>
+  <section class="container">
+      <div class="login-container">
+          <div class="form-container">
+              <h1 class="opacity">Login</h1>
+              <form (ngSubmit)="onSubmit()">
+                <input type="text" placeholder="USERNAME" [(ngModel)]="username" name="username" required />
+                <input type="password" placeholder="PASSWORD" [(ngModel)]="password" name="password" required />
+                <button type="submit" class="custom-btn">Log In</button>
+            </form>
+
+          </div>
+      </div>
+  </section>
+</body>
